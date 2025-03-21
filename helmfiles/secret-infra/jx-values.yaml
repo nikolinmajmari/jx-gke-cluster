@@ -20,16 +20,26 @@ jxRequirements:
     enabled: false
     schedule: ""
   cluster:
+    chartRepository: http://jenkins-x-chartmuseum.jx.svc.cluster.local:8080
+    clusterName: tf-jx-allowed-lamprey
     devEnvApprovers:
     - todo
+    dockerRegistryOrg: oci
     environmentGitOwner: todo
     gitKind: github
     gitName: github
     gitServer: https://github.com
+    gke:
+      projectNumber: "968453465120"
     kanikoFlags: --skip-unused-stages --snapshotMode=redo
+    project: softcell-test-447106
     provider: gke
+    registry: us-central1-docker.pkg.dev/softcell-test-447106
+    zone: us-central1-a
   environments:
   - key: dev
+    owner: nikolinmajmari
+    repository: jx-gke-cluster
   - key: staging
   - key: production
   ingress:
@@ -39,9 +49,18 @@ jxRequirements:
     tls:
       email: ""
       enabled: false
-      production: false
+      production: true
+  pipelineUser:
+    username: nikolinmajmari
   repository: nexus
   secretStorage: gsm
+  storage:
+  - name: logs
+    url: gs://logs-tf-jx-allowed-lamprey-e55e81238163
+  - name: reports
+    url: gs://reports-tf-jx-allowed-lamprey-e55e81238163
+  - name: repository
+    url: gs://repository-tf-jx-allowed-lamprey-e55e81238163
   vault: {}
   webhook: lighthouse
 jxRequirementsIngressExternalDNS:
