@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - nikolinmajmari/jx-gke-cluster
-      target_url: http://lighthouse-jx./merge/status
+      target_url: http://lighthouse-jx.34.67.121.214.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
