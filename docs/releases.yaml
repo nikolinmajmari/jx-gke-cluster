@@ -10,7 +10,7 @@
     firstDeployed: "2025-03-21T05:24:32Z"
     home: https://github.com/jenkins-x-plugins/jx-verify
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
-    lastDeployed: "2025-03-21T05:24:32Z"
+    lastDeployed: "2025-03-21T05:34:18Z"
     logsUrl: https://console.cloud.google.com/logs/viewer?authuser=1&project=softcell-test-447106&minLogLevel=0&expandAll=false&customFacets=&limitCustomFacetWidth=true&interval=PT1H&resource=k8s_container%2Fcluster_name%2Ftf-jx-allowed-lamprey%2Fnamespace_name%2Fjx-production%2Fcontainer_name%2Fjx-verify&dateRangeUnbound=both
     name: jx-verify
     releaseName: jx-verify
@@ -30,7 +30,7 @@
     firstDeployed: "2025-03-21T05:24:32Z"
     home: https://github.com/jenkins-x-plugins/jx-verify
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
-    lastDeployed: "2025-03-21T05:24:32Z"
+    lastDeployed: "2025-03-21T05:34:18Z"
     logsUrl: https://console.cloud.google.com/logs/viewer?authuser=1&project=softcell-test-447106&minLogLevel=0&expandAll=false&customFacets=&limitCustomFacetWidth=true&interval=PT1H&resource=k8s_container%2Fcluster_name%2Ftf-jx-allowed-lamprey%2Fnamespace_name%2Fjx-staging%2Fcontainer_name%2Fjx-verify&dateRangeUnbound=both
     name: jx-verify
     releaseName: jx-verify
@@ -51,11 +51,11 @@
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
     ingresses:
     - name: chartmuseum
-      url: http://chartmuseum-jx.change.me
+      url: http://chartmuseum-jx.34.67.121.214.nip.io
     - name: hook
-      url: http://hook-jx.change.me/hook
+      url: http://hook-jx.34.67.121.214.nip.io/hook
     - name: nexus
-      url: http://nexus-jx.change.me
+      url: http://nexus-jx.34.67.121.214.nip.io
     lastDeployed: "2025-03-21T05:24:32Z"
     logsUrl: https://console.cloud.google.com/logs/viewer?authuser=1&project=softcell-test-447106&minLogLevel=0&expandAll=false&customFacets=&limitCustomFacetWidth=true&interval=PT1H&resource=k8s_container%2Fcluster_name%2Ftf-jx-allowed-lamprey%2Fnamespace_name%2Fjx%2Fcontainer_name%2Fjxboot-helmfile-resources&dateRangeUnbound=both
     name: jxboot-helmfile-resources
@@ -68,7 +68,7 @@
     version: 1.1.472
   - apiVersion: v1
     appVersion: 1.8.4
-    applicationUrl: http://dashboard-jx.change.me
+    applicationUrl: http://dashboard-jx.34.67.121.214.nip.io
     description: Web UI for Jenkins X, with a clear goal - visualize the pipelines
       - and their logs.
     firstDeployed: "2025-03-21T05:24:32Z"
@@ -76,7 +76,7 @@
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
     ingresses:
     - name: jx-pipelines-visualizer
-      url: http://dashboard-jx.change.me
+      url: http://dashboard-jx.34.67.121.214.nip.io
     lastDeployed: "2025-03-21T05:24:32Z"
     logsUrl: https://console.cloud.google.com/logs/viewer?authuser=1&project=softcell-test-447106&minLogLevel=0&expandAll=false&customFacets=&limitCustomFacetWidth=true&interval=PT1H&resource=k8s_container%2Fcluster_name%2Ftf-jx-allowed-lamprey%2Fnamespace_name%2Fjx%2Fcontainer_name%2Fjx-pipelines-visualizer&dateRangeUnbound=both
     name: jx-pipelines-visualizer
